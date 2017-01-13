@@ -7,13 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		533507851E297F3F00AB0E2B /* ElevatorController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 533507841E297F3F00AB0E2B /* ElevatorController.swift */; };
+		53899F311E29906500706874 /* ButtonPanelCVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53899F301E29906500706874 /* ButtonPanelCVC.swift */; };
 		53FD15BA1E297AA600EF383F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53FD15B91E297AA600EF383F /* AppDelegate.swift */; };
-		53FD15BC1E297AA600EF383F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53FD15BB1E297AA600EF383F /* ViewController.swift */; };
 		53FD15BF1E297AA600EF383F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 53FD15BD1E297AA600EF383F /* Main.storyboard */; };
 		53FD15C11E297AA600EF383F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 53FD15C01E297AA600EF383F /* Assets.xcassets */; };
 		53FD15C41E297AA600EF383F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 53FD15C21E297AA600EF383F /* LaunchScreen.storyboard */; };
 		53FD15CF1E297AA600EF383F /* ElevatorChallengeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53FD15CE1E297AA600EF383F /* ElevatorChallengeTests.swift */; };
 		53FD15DA1E297AA600EF383F /* ElevatorChallengeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53FD15D91E297AA600EF383F /* ElevatorChallengeUITests.swift */; };
+		53FD15E81E297C2000EF383F /* Elevator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53FD15E71E297C2000EF383F /* Elevator.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,9 +36,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		533507841E297F3F00AB0E2B /* ElevatorController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ElevatorController.swift; sourceTree = "<group>"; };
+		53899F301E29906500706874 /* ButtonPanelCVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ButtonPanelCVC.swift; sourceTree = "<group>"; };
 		53FD15B61E297AA600EF383F /* ElevatorChallenge.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ElevatorChallenge.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		53FD15B91E297AA600EF383F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		53FD15BB1E297AA600EF383F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		53FD15BE1E297AA600EF383F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		53FD15C01E297AA600EF383F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		53FD15C31E297AA600EF383F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +50,7 @@
 		53FD15D51E297AA600EF383F /* ElevatorChallengeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ElevatorChallengeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		53FD15D91E297AA600EF383F /* ElevatorChallengeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ElevatorChallengeUITests.swift; sourceTree = "<group>"; };
 		53FD15DB1E297AA600EF383F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		53FD15E71E297C2000EF383F /* Elevator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Elevator.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,7 +102,9 @@
 			isa = PBXGroup;
 			children = (
 				53FD15B91E297AA600EF383F /* AppDelegate.swift */,
-				53FD15BB1E297AA600EF383F /* ViewController.swift */,
+				53FD15E71E297C2000EF383F /* Elevator.swift */,
+				533507841E297F3F00AB0E2B /* ElevatorController.swift */,
+				53899F301E29906500706874 /* ButtonPanelCVC.swift */,
 				53FD15BD1E297AA600EF383F /* Main.storyboard */,
 				53FD15C01E297AA600EF383F /* Assets.xcassets */,
 				53FD15C21E297AA600EF383F /* LaunchScreen.storyboard */,
@@ -261,8 +267,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				53FD15BC1E297AA600EF383F /* ViewController.swift in Sources */,
 				53FD15BA1E297AA600EF383F /* AppDelegate.swift in Sources */,
+				533507851E297F3F00AB0E2B /* ElevatorController.swift in Sources */,
+				53FD15E81E297C2000EF383F /* Elevator.swift in Sources */,
+				53899F311E29906500706874 /* ButtonPanelCVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -513,6 +521,7 @@
 				53FD15E01E297AA600EF383F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		53FD15E11E297AA600EF383F /* Build configuration list for PBXNativeTarget "ElevatorChallengeTests" */ = {
 			isa = XCConfigurationList;
@@ -521,6 +530,7 @@
 				53FD15E31E297AA600EF383F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		53FD15E41E297AA600EF383F /* Build configuration list for PBXNativeTarget "ElevatorChallengeUITests" */ = {
 			isa = XCConfigurationList;
@@ -529,6 +539,7 @@
 				53FD15E61E297AA600EF383F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
